@@ -1,0 +1,21 @@
+# Example configuration.yaml
+
+root_path:
+  value: '/users/lllang/SCRATCH/projects/AbstractToTitle'
+  description: "Specifies the primary directory for the AbstractToTitle project, encompassing all essential files and subdirectories."
+
+llama_model_path:
+  value: "/users/lllang/SCRATCH/Codes/llama_weights/llama-2-70b-chat"
+  description: "Designates the directory containing the specific LLaMA model version (llama-2-70b-chat) to be used, inclusive of its pre-trained weights."
+
+llama_weights_path:
+  value: "/users/lllang/SCRATCH/Codes/llama_weights"
+  description: "Indicates the general directory where various versions of LLaMA model weights are stored, facilitating the selection of different model configurations as needed."
+
+new_model_path:
+  value: "/users/lllang/SCRATCH/projects/AbstractToTitle/models/llama-2-70b-chat-ATT_0"
+  description: "Specifies the directory for storing the fine-tuned LLaMA model variant, labeled 'llama-2-7b-chat-ATT_0', which is a product of the current project's adaptation process."
+
+dataset_csv:
+  value: "data/processed/scopus_1_inst.csv"
+  description: "Defines the relative path from the root to the dataset CSV file, which should include a 'prompt' column for data processing."
